@@ -14,7 +14,7 @@ This project converts a hoverboard motor into a remote-controlled bot using a zs
 
 - Smooth motor control
 - Safety cut-off
-- PWM control from FlySky FS-iA6B
+- PWM control from FlySky FS-iA6B using the iBus Serial Protocol
 
 ## Parts
 
