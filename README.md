@@ -2,6 +2,7 @@
 
 This project converts a hoverboard motor into a remote-controlled bot using a zs-x11h v2 controller and a Raspberry Pi Pico W. The bot is controlled via a FlySky FS-iA6B receiver.
 
+![Hoverboard RC Bot](docs/hoverboardrcbotschematic.png)
 
 ## Features
 
