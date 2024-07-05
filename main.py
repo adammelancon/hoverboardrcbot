@@ -31,7 +31,7 @@ def map_to_pwm(value, speed_limit):
     return int((abs(value) * 65535 * speed_limit) / 10000)
 
 # Function to apply smooth deceleration
-def smooth_deceleration(current, target, deceleration_factor=0.2):
+def smooth_deceleration(current, target, deceleration_factor=0.4):
     return current - (current - target) * deceleration_factor
 
 # Main control loop
