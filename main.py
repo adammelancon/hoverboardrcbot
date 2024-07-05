@@ -22,9 +22,9 @@ pwm_left_wheel.freq(50)
 pwm_right_wheel.freq(50)
 
 # Define the neutral range and threshold for throttle and steering
-NEUTRAL_RANGE = 10
-THROTTLE_THRESHOLD = 5
-STEERING_THRESHOLD = 5
+NEUTRAL_RANGE = 25
+THROTTLE_THRESHOLD = 10
+STEERING_THRESHOLD = 10
 
 # Function to map normalized value to PWM duty cycle with speed limit
 def map_to_pwm(value, speed_limit):
